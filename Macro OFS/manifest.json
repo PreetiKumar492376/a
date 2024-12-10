@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Key For Macro",
+  "version": "1.0",
+  "permissions": ["cookies", "activeTab", "scripting", "storage"],
+  "host_permissions": ["https://*.roblox.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
